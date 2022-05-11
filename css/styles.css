@@ -1,0 +1,116 @@
+/*
+Rojo #EE6A59
+Negro #3A3F58
+Naranja #F9AC67
+Blanco #ECE6CD
+Gris #F5F5F5
+*/
+
+h1,h2, h3 {
+	font-family: 'League Gothic', sans-serif;
+}
+
+p {
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	color: #3A3F58;
+}
+
+.texto-naranja {
+	color: #F9AC67;
+}
+
+.texto-negro {
+	color: #3A3F58;
+}
+
+.btn-naranja a, .btn-naranja button {
+	background: #F9AC67;
+	color: #ECE6CD;
+	padding: 10px 20px;
+	border: none;
+}
+
+.btn-naranja a:hover , .btn-naranja button:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.btn-gris a {
+	background: #F5F5F5;
+	color: #3A3F58;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.btn-gris a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+/* Formulario */
+
+.formulario {
+	display: none;
+}
+
+.formulario-img {
+	background-image: url("../img/pexels-andrea-piacquadio-864994.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.formulario-texto {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-10%);
+	width: 100%;
+	display: none;
+}
+
+.formulario-texto h3 {
+	color: #EE6A59;
+}
+
+.formulario-texto p {
+	color: #000;
+}
+
+#second-form, #third-form {
+	display: none;
+}
+
+.form-input {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #F9AC67;
+	color: #3A3F58;
+}
+
+.form-input:focus {
+	box-shadow: none;
+	border-bottom: 1px solid #3A3F58;
+}
+
+/* Redes */
+
+.redes a {
+	font-size: 30px;
+	color: #3A3F58;
+}
+
+.redes a:hover {
+	text-decoration: none;
+	color: #F9AC67;
+}
+
+.barra {
+	border-top: 2px solid #3A3F58;
+	height: 2px;
+	max-width: 200px;
+	padding: 0;
+	margin: 20px auto 0 auto;
+}
